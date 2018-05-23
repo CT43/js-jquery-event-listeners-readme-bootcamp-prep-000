@@ -20,9 +20,10 @@ function pressIt () {
 }
 
 $(document).ready(function() {
-  $('img').on('load', function (){
-    $('img').addClass('tasty')
+  $('#typing').on('keydown', function(e) {
+    if (e.which===71) {
+      alert('you pressed g')
+    }
   })
-
 
 });
