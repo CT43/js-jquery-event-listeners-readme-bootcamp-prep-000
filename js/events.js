@@ -19,6 +19,10 @@ function pressIt () {
   })
 }
 
+function submitIt () {
+  
+}
+
 $(document).ready(function() {
   $('#typing').on('keydown', function(e) {
     if (e.which===71) {
