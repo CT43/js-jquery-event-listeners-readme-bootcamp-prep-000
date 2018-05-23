@@ -26,10 +26,9 @@ function submitIt () {
 }
 
 $(document).ready(function() {
-  $('#typing').on('keydown', function(e) {
-    if (e.which===71) {
-      alert('you pressed g')
-    }
+   $('form').on('submit', function(e){
+    alert('Your form is going to be submitted now.')
   })
+
 
 });
